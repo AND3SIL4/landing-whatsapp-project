@@ -1,14 +1,14 @@
 {
   "meta": {
-    "title": "Luna Landing your perfect landing page",
-    "description": "Landing page template",
-    "lang": "en",
+    "title": "Landing page proyecto WhatsApp",
+    "description": "Landing page para el proyecto de WhatsApp para la empresa Comestibles Ricos S.A.",
+    "lang": "es",
     "charset": "UTF-8",
     "ldJson": {
       "@context": "http://schema.org",
       "@type": "Organization",
-      "name": "Luna Landing",
-      "description": "Fictitious company that seeks to elevate and simplify the lives of web developers.",
+      "name": "Landing page proyecto WhatsApp",
+      "description": "El",
       "url": "https://luna-landing-rust.vercel.app/",
       "logo": "./public/favicon.svg",
       "contactPoint": {
@@ -24,13 +24,13 @@
     }
   },
   "headerData": {
-    "logo": "Luna Landing",
+    "logo": "Proyecto WhatsApp",
     "links": [
-      { "label": "About", "href": "#" },
-      { "label": "Services", "href": "#" },
-      { "label": "Prices", "href": "#" },
-      { "label": "FAQs", "href": "#" },
-      { "label": "Blog", "href": "#" }
+      { "label": "Sobre proyecto", "href": "#" },
+      { "label": "Servicios", "href": "#" },
+      { "label": "Beneficios", "href": "#" },
+      { "label": "Tecnologías", "href": "#" },
+      { "label": "Instalación", "href": "#" }
     ]
   },
   "heroData": {
