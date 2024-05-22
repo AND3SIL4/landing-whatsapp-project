@@ -9,7 +9,7 @@
       "@type": "Organization",
       "name": "Landing page proyecto WhatsApp",
       "description": "El",
-      "url": "https://luna-landing-rust.vercel.app/",
+      "url": "https://landing-whatsapp-project.vercel.app/",
       "logo": "./public/favicon.svg",
       "contactPoint": {
         "@type": "ContactPoint",
@@ -27,158 +27,112 @@
     "logo": "Proyecto WhatsApp",
     "links": [
       { "label": "Sobre proyecto", "href": "#" },
-      { "label": "Servicios", "href": "#" },
-      { "label": "Beneficios", "href": "#" },
-      { "label": "Tecnologías", "href": "#" },
+      { "label": "Servicios", "href": "#services-section" },
+      { "label": "Beneficios", "href": "#adventajes-section" },
+      { "label": "Tecnologías", "href": "#technologies-used" },
       { "label": "Instalación", "href": "#" }
     ]
   },
   "heroData": {
-    "title": "Open Your Mind to the Universe: Welcome to",
-    "subTitle": "Discover the Beauty of the Cosmos: Explore the Infinite Wonders of Space with Us",
-    "primaryCta": "Github Repo",
-    "secondaryCta": "See our pricing",
-    "highlightedTitle": "Luna Landing"
+    "title": "Mantiene a sus Clientes de Informados usando: ",
+    "subTitle": "Mejora la experiencia del cliente con Twilio y WhatsApp, enviando notificaciones instantáneas sobre el estado de los pedidos.",
+    "primaryCta": "Código fuente",
+    "secondaryCta": "Comestibles Ricos S.A",
+    "highlightedTitle": "WhatsApp Project"
   },
   "servicesData": {
-    "title": "Everything you need to build a website",
+    "title": "Servicios que se ofrecen con el WhatsApp Project",
     "services": [
       {
-        "title": "Professional Templates",
-        "icon": "DevIcon",
-        "description": "Our templates are crafted by experienced web designers, ensuring a modern and polished look for your site. From typography to element design, every detail is carefully considered to convey a professional image."
-      },
-      {
-        "title": "Integrated Accessibility",
-        "icon": "PlanetIcon",
-        "description": "We care about web accessibility and have integrated features to ensure your site is accessible to all users, including those with visual or motor disabilities. Our templates comply with WCAG accessibility standards to provide an inclusive experience for everyone."
-      },
-      {
-        "title": "SEO-Optimized",
+        "title": "Gestión de Pedidos y Reducción de Casos",
         "icon": "FileIcon",
-        "description": "We understand the importance of your site being visible in search engines. That's why our templates are optimized for SEO, meaning they are structured and coded to be easily indexed by Google and other search engines, helping to improve your ranking in search results."
+        "description": "Optimiza la administración de pedidos con una comunicación fluida y eficiente, reduciendo tiempos de respuesta y reporte de tickets relacionados a desconocimiento del estado del pedido."
       },
       {
-        "title": "Easy Set up",
-        "icon": "ConfigIcon",
-        "description": "With our templates, you don't need to be a web development expert to have an impressive site. They are easy to set up and customize, with intuitive options that allow you to change colors, fonts, page layout, and more with just a few clicks. Make your site stand out hassle-free!"
+        "title": "Integración de Twilio y WhatsApp",
+        "icon": "DevIcon",
+        "description": "Conecta nuestros sistemas con Twilio y WhatsApp para enviar notificaciones automáticas sobre el estado de los pedidos durante todo su ciclo."
+      },
+      {
+        "title": "Notificaciones en Tiempo Real",
+        "icon": "NotificationIcon",
+        "description": "Informa a los clientes de Comestibles Ricos S.A (Distribuidores y Coordinadores) al instante sobre actualizaciones de sus pedidos mediante mensajes de WhatsApp."
+      },
+
+      {
+        "title": "Personalización de Mensajes",
+        "icon": "UserIcon",
+        "description": "Envía mensajes personalizados para mejorar la experiencia del cliente y fortalecer la relación con ellos."
       }
     ]
   },
   "adventajesData": {
-    "title": "    Unlock the Power of Luna Landing: Discover the Key Benefits",
+    "title": "Ventajas de WhatsApp Project",
     "adventajes": [
       {
-        "title": "Take Your Website to Perfection",
-        "description": "Our intuitive customization options empower you to create a website that stands out and resonates with your audience like never before. Say goodbye to cookie-cutter designs and hello to a website that truly reflects your vision and personality.",
+        "title": "Optimización y mejora de la comunicación interpretativa",
+        "description": "Internamente, nuestra integración de Twilio y WhatsApp está diseñada para optimizar la comunicación con los clientes y mejorar la gestión de pedidos. Aquí destacamos tres ventajas clave sobre la competencia",
         "img": "template.webp",
-        "imageAlt": "this is an image about the template service adventajes",
-        "checks": ["Colors", "Fonts", "Layout"]
+        "imageAlt": "this is an image about the template service advantages",
+        "checks": [
+          "+ Efectividad pedidos",
+          "+ Eficiencia Operativa",
+          "- Tickets",
+          "+ Comunicación efectiva"
+        ]
       },
       {
-        "title": "Reach the Top of Search Rankings",
-        "description": "Elevate your online visibility with our SEO-optimized template. Built with search engine algorithms in mind, our template is designed to help your website climb to the top of search engine results pages (SERPs). From optimized meta tags and clean HTML structure to mobile responsiveness and fast loading times, every aspect of our template is geared towards maximizing your website's search engine performance. Increase your organic traffic, attract more visitors, and grow your online presence with ease.",
+        "title": "Facilidad de Implementación",
+        "description": "WhatsApp Project se destaca por su facilidad de implementación, diseñada para integrarse rápidamente con los sistemas existentes sin complicaciones.",
         "img": "seo.webp",
         "imageAlt": "this is an image about the SEO adventajes",
-        "checks": ["Search Visibility", "Organic Traffic", "Online Credibility"]
+        "checks": [
+          "Proceso Intuitivo, Ágil y desatendido",
+          "Documentación y Soporte Completo",
+          "Compatibilidad Amplia"
+        ]
       }
     ]
   },
   "brandsData": {
-    "title": "Integration with Leading Technologies",
-    "description": "Effortlessly integrate with leading technologies. Our platform seamlessly supports industry-standard tools and frameworks, enabling you to stay ahead of the curve and maximize productivity. Explore endless possibilities with our comprehensive compatibility features",
+    "title": "Tecnologías integradas en este proyecto",
+    "description": "Nuestro servicio de integración se basa en tecnologías de vanguardia que aseguran una comunicación eficiente y fiable. Aquí te presentamos las principales tecnologías utilizadas",
     "brands": [
-      { "label": "React", "icon": "ReactIcon", "href": "https://react.dev/" },
-      { "label": "Vue", "icon": "VueIcon", "href": "https://vuejs.org/" },
       {
-        "label": "Svelte",
-        "icon": "SvelteIcon",
-        "href": "https://svelte.dev/"
+        "label": "Twilio",
+        "icon": "TwilioIcon",
+        "href": "https://www.twilio.com/"
+      },
+      { "label": "Nodejs", "icon": "NodeIcon", "href": "https://nodejs.org/" },
+      {
+        "label": "React",
+        "icon": "ReactIcon",
+        "href": "https://react.dev/"
       },
       {
-        "label": "Solid",
-        "icon": "SolidIcon",
-        "href": "https://www.solidjs.com/"
+        "label": "Astro",
+        "icon": "AstroIcon",
+        "href": "https://www.astro.build/"
+      },
+      {
+        "label": "Typescript",
+        "icon": "TypescriptIcon",
+        "href": "https://www.typescriptlang.org/"
       },
       {
         "label": "Vercel",
         "icon": "VercelIcon",
-        "href": "https://vercel.com/"
-      },
-      {
-        "label": "Netlify",
-        "icon": "NetlifyIcon",
         "href": "https://www.netlify.com/"
       }
     ]
   },
-  "pricingData": {
-    "title": "Our Pricing",
-    "tiers": [
-      {
-        "title": "Starter",
-        "description": "Best option for personal use & for your next project.",
-        "price": {
-          "amount": "Free"
-        },
-        "features": [
-          "feature 1",
-          "feature 2",
-          "feature 3",
-          "feature 4",
-          "feature 5"
-        ],
-        "cta": "Get started"
-      },
-      {
-        "title": "Professional",
-        "description": "Relevant for multiple users, extended & premium support.",
-        "price": {
-          "amount": "$29",
-          "period": "/month"
-        },
-        "features": [
-          "feature 1",
-          "feature 2",
-          "feature 3",
-          "feature 4",
-          "feature 5"
-        ],
-        "cta": "Get started"
-      },
-      {
-        "title": "Enterprise",
-        "description": "Best for large scale uses and extended redistribution rights.",
-        "price": {
-          "amount": "$59",
-          "period": "/month"
-        },
-        "features": [
-          "feature 1",
-          "feature 2",
-          "feature 3",
-          "feature 4",
-          "feature 5"
-        ],
-        "cta": "Get started"
-      }
-    ]
-  },
   "footerData": {
-    "logo": "Luna Landing",
-    "description": "Discover the Beauty of the Cosmos: Explore the Infinite Wonders of Space with Us",
-    "links": [
-      { "label": "About", "href": "/" },
-      { "label": "Services", "href": "/" },
-      { "label": "Blog", "href": "/" },
-      { "label": "FAQs", "href": "/" },
-      { "label": "Contact", "href": "/" }
-    ],
+    "logo": "Proyecto WhatsApp Landing",
+    "description": "Developed by Felipe Silva based on Luna Landing Astro Theme",
     "socials": [
-      { "icon": "FacebookIcon", "href": "/" },
-      { "icon": "InstagramIcon", "href": "/" },
-      { "icon": "TwitterIcon", "href": "/" },
-      { "icon": "GithubIcon", "href": "/" }
+      { "icon": "TesolucionaIcon", "href": "https://soporte.superricas.com/" },
+      { "icon": "WebsiteIcon", "href": "https://superricas.com/" },
+      { "icon": "GithubIcon", "href": "https:github.com/AND3SIL4" }
     ]
   }
 }

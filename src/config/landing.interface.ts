@@ -49,7 +49,6 @@ export interface Adventaje {
 export interface FooterData {
   logo: string;
   description: string;
-  links: Link[];
   socials: Social[];
 }
 
