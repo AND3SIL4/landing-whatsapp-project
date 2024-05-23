@@ -1,4 +1,4 @@
-![image](https://github.com/JimmyCamus/luna-landing/assets/86853554/7dc4c571-bb33-4e55-ae94-446b056539a0)
+![image](./screenshot.png)
 
 # WhatsApp Project Landing
 
