@@ -7,6 +7,8 @@ import Header from "@/sections/Header.astro";
 import Hero from "@/sections/Introduction.astro";
 import Services from "@/sections/Services.astro";
 import { getLandingData } from "@/services/data.service";
+import Instalation from "@/sections/Instalation.astro";
+
 
 const data = await getLandingData();
 ---
@@ -19,6 +21,7 @@ const data = await getLandingData();
       <Services data={data.servicesData} />
       <Adventajes data={data.adventajesData} />
       <Brands data={data.brandsData} />
+      <Instalation data={data.installationData} />
     </div>
     <Footer data={data.footerData} />
   </main>

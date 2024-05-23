@@ -30,7 +30,7 @@
       { "label": "Servicios", "href": "#services-section" },
       { "label": "Beneficios", "href": "#adventajes-section" },
       { "label": "Tecnologías", "href": "#technologies-used" },
-      { "label": "Instalación", "href": "#" }
+      { "label": "Instalación", "href": "#section-installation" }
     ]
   },
   "heroData": {
@@ -134,5 +134,10 @@
       { "icon": "WebsiteIcon", "href": "https://superricas.com/" },
       { "icon": "GithubIcon", "href": "https:github.com/AND3SIL4" }
     ]
+  },
+  "installationData": {
+    "title": "Instalación WhatsApp Project",
+    "img": "/installation.webp",
+    "imageAlt": "Image installation whatsapp project"
   }
 }

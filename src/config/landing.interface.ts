@@ -7,7 +7,14 @@ export interface LandingPageData {
   brandsData: BrandsData;
   pricingData: PricingData;
   footerData: FooterData;
+  installationData: installationData
 }
+
+export interface installationData {
+  title: string;
+  img: string;
+  imageAlt: string;
+} 
 
 export interface HeaderData {
   logo: string;
